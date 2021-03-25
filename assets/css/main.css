@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Arvo:700|Open+Sans");
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 html {
   overflow-x: hidden;
 }
@@ -23,7 +23,7 @@ h1, h2, h3, h4 {
   font-size: 38px;
   color: #222222;
   font-weight: 700;
-  font-family: 'Arvo', serif;
+  font-family: 'Rubik', serif;
 }
 
 a {
@@ -339,6 +339,8 @@ hr {
   z-index: 1;
 }
 
+
+
 #features .content-left span {
   float: right;
 }
@@ -429,10 +431,8 @@ hr {
 }
 
 .services-item .icon {
-  border: 1px solid #f1f1f1;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
+  width: 90px;
+  height: 60px;
   margin: 0 auto;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -449,6 +449,12 @@ hr {
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
 }
+
+.services-item .icon img {
+  width: 80px;
+  height: auto;
+}
+
 
 .services-item .services-content h3 {
   margin-top: 10px;
@@ -470,9 +476,6 @@ hr {
   box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
 }
 
-.services-item:hover .icon {
-  background: #F63854;
-}
 
 .services-item:hover .icon i {
   color: #fff;
