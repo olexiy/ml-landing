@@ -367,25 +367,9 @@ hr {
   top: 0;
 }
 
-#features .box-item .icon {
-  text-align: center;
-  margin: 12px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
 
-#features .box-item .icon i {
-  color: #FC9C13;
-  font-size: 30px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-#features .box-item .text h4 {
+#features .box-item .text p {
+  color: #272727;
   cursor: pointer;
   font-size: 18px;
   font-weight: 500;
@@ -396,10 +380,6 @@ hr {
   transition: all 0.2s linear;
 }
 
-#features .box-item .text p {
-  font-size: 14px;
-  line-height: 26px;
-}
 
 #features .box-item:hover {
   box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
